@@ -1,0 +1,221 @@
+{
+  "Cards": {
+    "platformsTitle": "Folge mir auf",
+    "platformsSubtitle": "Entdecke meine kreativen Projekte und Einblicke in meinen Arbeitsalltag",
+    "view": "Ansehen",
+    "projectsTitle": "Aktuelle Projekte",
+    "projectsSubtitle": "Entdecke meine neuesten kreativen Arbeiten und Projekte",
+    "projectView": "Projekt ansehen"
+  },
+  "Hero": {
+    "titlePrefix": "Hallo, ich bin",
+    "subtitle": "Kreative Designerin und Entwicklerin mit Leidenschaft für",
+    "subtitleCont": "innovative Lösungen und schöne Designs.",
+    "body": "Ich helfe Unternehmen und Einzelpersonen dabei, ihre Visionen in die digitale Welt zu übertragen. Von Webdesign über Branding bis hin zu Social Media Content – gemeinsam schaffen wir etwas Besonderes.",
+    "cta": "Folge meiner Reise"
+  },
+  "AboutTeaser": {
+    "title": "Über mich",
+    "body": "Als Wirtschaftspsychologin mit Schwerpunkt auf HR und Coaching verbinde ich analytisches Denken mit Einfühlungsvermögen und einem klaren Verständnis für Menschen und Unternehmen.\n\nIch setze mich dafür ein, Personalstrategien zu entwickeln, die Effizienz und Menschlichkeit verbinden und dabei Motivation fördern, Potenziale entfalten und nachhaltige Veränderungen gestalten.",
+    "highlights": [
+      "Wirtschaftspsychologin spezialisiert auf Human Resources und Personalentwicklung",
+      "Über 4 Jahre Erfahrung im Personalmanagement",
+      "Ausbildung im Systemischen Coaching (EASC-zertifiziert)",
+      "Fundiertes Wissen in Kommunikation, Motivation und Organisationspsychologie"
+    ],
+    "cta": "Mehr erfahren"
+  },
+  "CTA": {
+    "title": "Lass uns kreativ zusammenarbeiten",
+    "body": "Hast du ein Projekt im Kopf? Ich helfe dir dabei, deine Vision in die Realität umzusetzen. Gemeinsam schaffen wir etwas Besonderes.",
+    "button": "Kontakt aufnehmen",
+    "meta": "Kostenloses Beratungsgespräch • Schnelle Antwort • Professionelle Umsetzung"
+  },
+  "Footer": {
+    "brandDesc": "Kreative Lösungen für deine digitalen und analogen Projekte. Lass uns gemeinsam etwas Besonderes schaffen.",
+    "followMe": "Folge mir",
+    "legal": "Rechtliches",
+    "impressum": "Impressum",
+    "privacy": "Datenschutz",
+    "profile": "Profil",
+    "madeIn": "© {year} Julia Osterloh. Mit ♥ in Deutschland erstellt.",
+    "rights": "Alle Rechte vorbehalten."
+  },
+  "Nav": {
+    "home": "Home",
+    "about": "Über mich",
+    "coaching": "Coaching",
+    "contact": "Kontakt"
+  },
+  "About": {
+    "subtitle": "Masterstudentin Wirtschaftspsychologie (Universität Bremen)",
+    "skillsInterestsTitle": "Fähigkeiten & Interessen",
+    "personal": "Persönliche Daten",
+    "labels": {
+      "birthdate": "Geburtsdatum",
+      "nationality": "Nationalität",
+      "address": "Adresse",
+      "phone": "Telefon",
+      "email": "E‑Mail"
+    },
+    "skills": "Fähigkeiten & Tools",
+    "interests": "Interessen",
+    "interestsText": "Aktives Mitglied bei TV‑Eiche Horn (Rhythmische Sportgymnastik). Seit 2019 DTB‑Kampfrichterin für Wettkämpfe in der RSG.",
+    "nationalityValue": "Deutsch",
+    "skillsList": [
+      "Microsoft Office (Word, Outlook, PowerPoint, Excel) – gut bis sehr gut",
+      "Zvoove, Persy – sehr gut"
+    ],
+    "journeyTitle": "Meine Reise",
+    "journeySubtitle": "Mein beruflicher Werdegang und akademischer Hintergrund",
+    "journey": [
+      {
+        "year": "08/2025 – heute",
+        "title": "Junior HR Consultant (Werkstudentin), DEKRA Arbeit GmbH, Bremen",
+        "desc": "Einführung eines neuen Recruiting-Systems, inklusive Prozessoptimierung und Schulung der Kollegen • Effiziente Gestaltung von Stellenanzeigen und Reichweitenoptimierung • Aktives Bewerbermanagement und Kommunikation mit Bewerbern",
+        "images": [
+          "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?auto=format&fit=crop&w=800&q=80"
+        ]
+      },
+      {
+        "year": "09/2023 – heute",
+        "title": "M.Sc. Wirtschaftspsychologie, Universität Bremen",
+        "desc": "Erwarteter Abschluss: 03/2026 (aktueller Notenschnitt: 1,18) • EASC‑Zertifizierung als Coach (in Arbeit) • Auslandssemester in Italien (03/2025 – 08/2025)",
+        "images": [
+          "https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=800&q=80"
+        ]
+      },
+      {
+        "year": "03/2025 – 08/2025",
+        "title": "Erasmus-Programm, Freie Universität Bozen, Italien",
+        "desc": "Schwerpunkt: Business und Innovation Management",
+        "images": [
+          "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=800&q=80"
+        ]
+      },
+      {
+        "year": "03/2022 – 03/2025",
+        "title": "Junior HR Consultant (Werkstudentin), DEKRA Arbeit GmbH, Bremen",
+        "desc": "Betreuung von 150 Werkstudierenden bei Mercedes‑Benz • Ansprechpartnerin für Kunden • Steuerung vielfältiger Projekte (DHL, IKEA, DEKRA Automobile) • Recruiting, Verträge, Disposition, Onboarding, Kündigungen, Ersatzbesetzungen",
+        "images": [
+          "https://images.unsplash.com/photo-1497215728101-856f4ea42174?auto=format&fit=crop&w=500&q=80",
+          "https://images.unsplash.com/photo-1517048676732-d65bc937f952?auto=format&fit=crop&w=500&q=80"
+        ]
+      },
+      {
+        "year": "09/2019 – 03/2023",
+        "title": "B.A. Betriebswirtschaft, Hochschule Bremen",
+        "desc": "Abschlussnote: 1,5 • Schwerpunkte: Personalwesen und Controlling",
+        "images": [
+          "https://images.unsplash.com/photo-1506784983877-45594efa4cbe?auto=format&fit=crop&w=800&q=80"
+        ]
+      },
+      {
+        "year": "09/2021 – 03/2022",
+        "title": "HR‑Praktikantin, DEKRA Arbeit GmbH, Bremen",
+        "desc": "Unterstützung in HR‑Projekten • Begleitung von Studierendenprojekten für Mercedes • Administrative Aufgaben",
+        "images": [
+          "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=800&q=80"
+        ]
+      },
+      {
+        "year": "01/2020 – 09/2021",
+        "title": "Produktionsmitarbeiterin (Mercedes‑Benz), DEKRA Arbeit GmbH, Bremen",
+        "desc": "Tätigkeit in Lackierung und Produktion",
+        "images": []
+      },
+      {
+        "year": "2019",
+        "title": "Abitur Oberschule Ronzelenstraße",
+        "desc": "",
+        "images": [
+          "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?auto=format&fit=crop&w=800&q=80"
+        ]
+      }
+    ],
+    "downloadCV": "Lebenslauf herunterladen"
+  },
+  "Contact": {
+    "heroTitle": "Lass uns sprechen",
+    "heroBody": "Hast du ein Projekt im Kopf? Ich helfe dir dabei, deine Vision in die Realität umzusetzen. Kontaktiere mich für ein kostenloses Beratungsgespräch.",
+    "info": {
+      "email": "E-Mail",
+      "phone": "Telefon",
+      "address": "Adresse",
+      "hours": "Arbeitszeiten",
+      "addressValue": "Bremen",
+      "hoursValue": "Nach Vereinbarung"
+    },
+    "formTitle": "Schreib mir eine Nachricht",
+    "formSubtitle": "Erzähl mir von deinem Projekt und lass uns gemeinsam etwas Besonderes schaffen",
+    "faqTitle": "Häufig gestellte Fragen",
+    "faqSubtitle": "Hier findest du Antworten auf die wichtigsten Fragen",
+    "faqs": [
+      {
+        "q": "Wie läuft ein typisches Projekt ab?",
+        "a": "Nach dem ersten Gespräch erstelle ich ein detailliertes Konzept und einen Zeitplan. Dann beginne ich mit der Umsetzung und halte dich regelmäßig über den Fortschritt auf dem Laufenden."
+      },
+      {
+        "q": "Wie lange dauert ein Projekt?",
+        "a": "Das hängt von der Komplexität ab. Ein einfaches Logo-Design dauert etwa 1-2 Wochen, während eine komplette Website 4-8 Wochen in Anspruch nehmen kann."
+      },
+      {
+        "q": "Bietest du auch Wartung und Support an?",
+        "a": "Ja, gerne! Ich biete verschiedene Wartungs- und Support-Pakete an, um sicherzustellen, dass dein Projekt immer optimal funktioniert."
+      },
+      {
+        "q": "Arbeitest du auch mit internationalen Kunden?",
+        "a": "Absolut! Ich arbeite gerne mit Kunden aus der ganzen Welt. Alle Kommunikation kann auf Deutsch oder Englisch stattfinden."
+      }
+    ]
+  },
+  "Coaching": {
+    "heroTitle": "Professionelles Coaching",
+    "heroSubtitle": "Entfalte dein Potenzial und erreiche deine Ziele mit maßgeschneiderten Coaching-Sitzungen",
+    "ctaButton": "Termin buchen",
+    "secondaryButton": "Mehr erfahren",
+    "servicesTitle": "Coaching-Services",
+    "servicesSubtitle": "Individuelle Coaching-Lösungen für deine persönliche und berufliche Entwicklung",
+    "service1": {
+      "title": "Karriere-Coaching",
+      "description": "Gestalte deinen Karriereweg mit Selbstvertrauen und Klarheit",
+      "benefit1": "Karrierezielsetzung und -planung",
+      "benefit2": "Bewerbungsvorbereitung und Skills",
+      "benefit3": "Führungskompetenz-Entwicklung"
+    },
+    "service2": {
+      "title": "Persönlichkeitsentwicklung",
+      "description": "Baue Selbstbewusstsein auf und entwickle wichtige Lebenskompetenzen",
+      "benefit1": "Zielsetzung und -erreichung",
+      "benefit2": "Zeitmanagement-Strategien",
+      "benefit3": "Selbstvertrauen stärken"
+    },
+    "service3": {
+      "title": "Wirtschaftspsychologie",
+      "description": "Wende psychologische Prinzipien auf Geschäftsherausforderungen an",
+      "benefit1": "Teamdynamik und Kommunikation",
+      "benefit2": "Change Management Unterstützung",
+      "benefit3": "Leistungsoptimierung"
+    },
+    "processTitle": "So funktioniert's",
+    "processSubtitle": "Ein strukturierter Ansatz für deine persönliche und berufliche Entwicklung",
+    "step1": {
+      "title": "Erstberatung",
+      "description": "Wir beginnen mit einem kostenlosen Beratungsgespräch, um deine Ziele und Herausforderungen zu verstehen"
+    },
+    "step2": {
+      "title": "Individueller Plan",
+      "description": "Ich erstelle einen maßgeschneiderten Coaching-Plan, der auf deine spezifischen Bedürfnisse zugeschnitten ist"
+    },
+    "step3": {
+      "title": "Regelmäßige Sitzungen",
+      "description": "Wir treffen uns regelmäßig, um an deinen Zielen zu arbeiten und den Fortschritt zu verfolgen"
+    },
+    "step4": {
+      "title": "Laufende Unterstützung",
+      "description": "Kontinuierliche Unterstützung und Begleitung für langfristigen Erfolg"
+    },
+    "ctaTitle": "Bereit für deine Reise?",
+    "ctaDescription": "Mache den ersten Schritt zur Erreichung deiner Ziele mit professioneller Coaching-Unterstützung"
+  }
+}

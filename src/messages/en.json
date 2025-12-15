@@ -1,0 +1,220 @@
+{
+  "Cards": {
+    "platformsTitle": "Follow me on",
+    "platformsSubtitle": "Discover my creative projects and insights into my daily work",
+    "view": "View",
+    "projectsTitle": "Recent projects",
+    "projectsSubtitle": "Explore my latest creative work and projects",
+    "projectView": "View project"
+  },
+  "Hero": {
+    "titlePrefix": "Hi, I'm",
+    "subtitle": "Creative designer and developer passionate about",
+    "subtitleCont": "innovative solutions and beautiful design.",
+    "body": "I help companies and individuals bring their vision to the digital world. From web design and branding to social media content — together we create something special.",
+    "cta": "Follow my journey"
+  },
+  "AboutTeaser": {
+    "title": "About me",
+    "body": "As a business psychologist specializing in HR and coaching, I combine analytical thinking with empathy and a deep understanding of people and organizations.\n\nI am dedicated to developing HR strategies that unite efficiency with humanity — fostering motivation, unlocking potential, and driving sustainable change.",
+    "highlights": [
+      "Business psychologist specialized in Human Resources and People Development",
+      "Over 4 years of experience in HR management",
+      "Certified Systemic Coach (EASC)",
+      "Strong background in communication, motivation, and organizational psychology"
+    ],
+    "cta": "Learn more"
+  },
+  "CTA": {
+    "title": "Let's create together",
+    "body": "Got a project in mind? I help turn your vision into reality. Together, we will create something special.",
+    "button": "Get in touch",
+    "meta": "Free consultation • Quick response • Professional delivery"
+  },
+  "Footer": {
+    "brandDesc": "Creative solutions for your digital and analog projects. Let’s create something special together.",
+    "followMe": "Follow me",
+    "legal": "Legal",
+    "impressum": "Imprint",
+    "privacy": "Privacy",
+    "profile": "Profile",
+    "madeIn": "© {year} Julia Osterloh. Made with ♥ in Germany.",
+    "rights": "All rights reserved."
+  },
+  "Nav": {
+    "home": "Home",
+    "about": "About",
+    "coaching": "Coaching",
+    "contact": "Contact"
+  },
+  "About": {
+    "subtitle": "Master student in Business Psychology",
+    "skillsInterestsTitle": "Skills & Interests",
+    "labels": {
+      "birthdate": "Date of birth",
+      "nationality": "Nationality",
+      "address": "Address",
+      "phone": "Phone",
+      "email": "Email"
+    },
+    "skills": "Skills & Tools",
+    "interests": "Interests",
+    "interestsText": "Active member at TV‑Eiche Horn (Rhythmic Gymnastics). DTB judge for RSG competitions since 2019.",
+    "nationalityValue": "German",
+    "skillsList": [
+      "Microsoft Office (Word, Outlook, PowerPoint, Excel) – good to very good",
+      "Zvoove, Persy – very good"
+    ],
+    "journeyTitle": "My Journey",
+    "journeySubtitle": "My professional path and academic background",
+    "journey": [
+      {
+        "year": "08/2025 – present",
+        "title": "Junior HR Consultant (Working Student), DEKRA Arbeit GmbH, Bremen",
+        "desc": "Implementation of a new recruiting system, including process optimization and training for colleagues • Efficient design of job advertisements and reach optimization • Active applicant management and communication with applicants",
+        "images": [
+          "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?auto=format&fit=crop&w=800&q=80"
+        ]
+      },
+      {
+        "year": "09/2023 – present",
+        "title": "M.Sc. Business Psychology, University of Bremen",
+        "desc": "Expected graduation: 03/2026 (current GPA: 1.18) • EASC certification as coach (in progress) • Semester abroad in Italy (03/2025 – 08/2025)",
+        "images": [
+          "https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=800&q=80"
+        ]
+      },
+      {
+        "year": "03/2025 – 08/2025",
+        "title": "Erasmus Program, University of Bozen-Bolzano, Italy",
+        "desc": "Focus: Business and Innovation Management",
+        "images": [
+          "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=800&q=80"
+        ]
+      },
+      {
+        "year": "03/2022 – 03/2025",
+        "title": "Junior HR Consultant (Working Student), DEKRA Arbeit GmbH, Bremen",
+        "desc": "Managed 150 working students at Mercedes‑Benz • Client liaison • Coordinated diverse projects (DHL, IKEA, DEKRA Automobile) • Recruiting, contracts, dispatching, onboarding, terminations, replacements",
+        "images": [
+          "https://images.unsplash.com/photo-1497215728101-856f4ea42174?auto=format&fit=crop&w=500&q=80",
+          "https://images.unsplash.com/photo-1517048676732-d65bc937f952?auto=format&fit=crop&w=500&q=80"
+        ]
+      },
+      {
+        "year": "09/2019 – 03/2023",
+        "title": "B.A. Business Administration, Hochschule Bremen",
+        "desc": "Final grade: 1.5 • Focus: Human Resources and Controlling",
+        "images": [
+          "https://images.unsplash.com/photo-1506784983877-45594efa4cbe?auto=format&fit=crop&w=800&q=80"
+        ]
+      },
+      {
+        "year": "09/2021 – 03/2022",
+        "title": "HR Intern, DEKRA Arbeit GmbH, Bremen",
+        "desc": "Supported HR projects • Assisted student projects for Mercedes • Administrative tasks",
+        "images": [
+          "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=800&q=80"
+        ]
+      },
+      {
+        "year": "01/2020 – 09/2021",
+        "title": "Production worker (Mercedes‑Benz), DEKRA Arbeit GmbH, Bremen",
+        "desc": "Work in painting and production",
+        "images": []
+      },
+      {
+        "year": "2019",
+        "title": "Abitur Oberschule Ronzelenstraße",
+        "desc": "",
+        "images": [
+          "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?auto=format&fit=crop&w=800&q=80"
+        ]
+      }
+    ],
+    "downloadCV": "Download CV"
+  },
+  "Contact": {
+    "heroTitle": "Let's talk",
+    "heroBody": "Got a project in mind? I help bring your vision to life. Contact me for a free consultation.",
+    "info": {
+      "email": "Email",
+      "phone": "Phone",
+      "address": "Address",
+      "hours": "Working hours",
+      "addressValue": "Bremen",
+      "hoursValue": "By appointment"
+    },
+    "formTitle": "Send me a message",
+    "formSubtitle": "Tell me about your project and let's create something special",
+    "faqTitle": "Frequently asked questions",
+    "faqSubtitle": "Here are answers to the most important questions",
+    "faqs": [
+      {
+        "q": "What does a typical project look like?",
+        "a": "After our first call, I prepare a detailed concept and timeline. Then I start implementation and keep you updated on progress."
+      },
+      {
+        "q": "How long does a project take?",
+        "a": "It depends on complexity. A simple logo design takes ~1–2 weeks, while a complete website can take 4–8 weeks."
+      },
+      {
+        "q": "Do you offer maintenance and support?",
+        "a": "Yes! I offer various maintenance and support plans to ensure your project continues to perform well."
+      },
+      {
+        "q": "Do you work with international clients?",
+        "a": "Absolutely! I love working with clients worldwide. Communication can be in German or English."
+      }
+    ]
+  },
+  "Coaching": {
+    "heroTitle": "Professional Coaching",
+    "heroSubtitle": "Unlock your potential and achieve your goals with personalized coaching sessions",
+    "ctaButton": "Book a Session",
+    "secondaryButton": "Learn More",
+    "servicesTitle": "Coaching Services",
+    "servicesSubtitle": "Tailored coaching solutions to help you grow personally and professionally",
+    "service1": {
+      "title": "Career Coaching",
+      "description": "Navigate your career path with confidence and clarity",
+      "benefit1": "Career goal setting and planning",
+      "benefit2": "Interview preparation and skills",
+      "benefit3": "Leadership development"
+    },
+    "service2": {
+      "title": "Personal Development",
+      "description": "Build self-awareness and develop key life skills",
+      "benefit1": "Goal setting and achievement",
+      "benefit2": "Time management strategies",
+      "benefit3": "Confidence building"
+    },
+    "service3": {
+      "title": "Business Psychology",
+      "description": "Apply psychological principles to business challenges",
+      "benefit1": "Team dynamics and communication",
+      "benefit2": "Change management support",
+      "benefit3": "Performance optimization"
+    },
+    "processTitle": "How It Works",
+    "processSubtitle": "A structured approach to your personal and professional growth",
+    "step1": {
+      "title": "Initial Consultation",
+      "description": "We start with a free consultation to understand your goals and challenges"
+    },
+    "step2": {
+      "title": "Personalized Plan",
+      "description": "I create a customized coaching plan tailored to your specific needs"
+    },
+    "step3": {
+      "title": "Regular Sessions",
+      "description": "We meet regularly to work through your goals and track progress"
+    },
+    "step4": {
+      "title": "Ongoing Support",
+      "description": "Continuous support and guidance to ensure long-term success"
+    },
+    "ctaTitle": "Ready to Start Your Journey?",
+    "ctaDescription": "Take the first step towards achieving your goals with professional coaching support"
+  }
+}

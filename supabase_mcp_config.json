@@ -1,0 +1,10 @@
+{
+    "mcpServers": {
+        "supabase": {
+            "url": "https://mcp.supabase.com/mcp?project_ref=lghjchgqyiznbxqepisu",
+            "headers": {
+                "apikey": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImxnaGpjaGdxeWl6bmJ4cWVwaXN1Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjU3ODk0MjYsImV4cCI6MjA4MTM2NTQyNn0.zdbw5gsz30knY7tzQbNrrR3EXE5jnklbDlXIOvlNEhw"
+            }
+        }
+    }
+}
