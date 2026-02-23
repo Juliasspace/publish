@@ -28,7 +28,7 @@ export default function Header() {
                 className="h-10 w-auto"
                 priority
               />
-              <span className="text-2xl font-semibold text-[#123458]">
+              <span className="text-2xl font-serif font-medium text-[#123458]">
                 Julia Osterloh
               </span>
             </Link>

@@ -29,7 +29,7 @@ export default function AboutTeaser() {
           className="space-y-8"
         >
           <div>
-            <h2 className="text-3xl sm:text-4xl font-semibold text-gray-900 mb-6">
+            <h2 className="text-3xl sm:text-4xl font-serif font-medium text-[#123458] mb-6 uppercase tracking-tight">
               {t('AboutTeaser.title')}
             </h2>
             <p className="text-lg text-gray-700 leading-relaxed mb-6 whitespace-pre-line">
@@ -54,10 +54,10 @@ export default function AboutTeaser() {
             ))}
           </div>
 
-            <BlueButton href="/about">
-              <span>{t('AboutTeaser.cta')}</span>
-              <ArrowRight className="h-5 w-5 transition-transform group-hover:translate-x-1" aria-hidden="true" />
-            </BlueButton>
+          <BlueButton href="/about">
+            <span>{t('AboutTeaser.cta')}</span>
+            <ArrowRight className="h-5 w-5 transition-transform group-hover:translate-x-1" aria-hidden="true" />
+          </BlueButton>
         </motion.div>
 
         {/* Image */}
@@ -70,7 +70,7 @@ export default function AboutTeaser() {
         >
           <div className="relative w-full h-80 rounded-2xl overflow-hidden shadow-xl">
             <Image
-              src="/placeholder/about-teaser.jpg"
+              src="/images/About Me .jpg"
               alt={t('AboutTeaser.imageAlt') || "Julia Osterloh bei der Arbeit"}
               fill
               className="object-cover"

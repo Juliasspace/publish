@@ -19,7 +19,7 @@ export default function AboutPage() {
         transition={{ duration: 0.6 }}
         className="text-center mb-8"
       >
-        <h1 className="text-4xl sm:text-5xl font-semibold text-accent mb-4">
+        <h1 className="text-4xl sm:text-5xl font-serif font-medium text-[#123458] mb-4 uppercase tracking-tight">
           {t('About.journeyTitle')}
         </h1>
         <p className="text-lg text-gray-600">
@@ -32,7 +32,7 @@ export default function AboutPage() {
           title: item.year,
           content: (
             <div>
-              <h3 className="text-xl font-bold text-gray-900 mb-2">{item.title}</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-2 whitespace-pre-line">{item.title}</h3>
               <div className="text-gray-700 leading-relaxed mb-8">
                 {item.desc ? (
                   item.desc.includes('•') ? (
@@ -99,35 +99,7 @@ export default function AboutPage() {
         </BlueButton>
       </motion.div>
 
-      {/* Skills & Interests - Keeping this as it wasn't explicitly asked to be removed, but user said 'delete headlines work & education'. Skills is usually separate. If user wants it gone they'd say 'delete everything else'. I'll keep it as footer content essentially. */}
-      <section className="section bg-background pt-0">
-        <div className="max-w-6xl mx-auto">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6 }}
-            viewport={{ once: true }}
-            className="text-center mb-12"
-          >
-            <h2 className="text-3xl font-semibold text-gray-900 mb-4">{t('About.skillsInterestsTitle')}</h2>
-          </motion.div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            <div className="card p-6">
-              <h3 className="text-lg font-semibold text-gray-900 mb-4">{t('About.skills')}</h3>
-              <ul className="space-y-2 text-gray-700 list-disc list-inside">
-                {(t('About.skillsList') as string[] || []).map((s, i) => (
-                  <li key={i}>{s}</li>
-                ))}
-              </ul>
-            </div>
-            <div className="card p-6 md:col-span-2 lg:col-span-3">
-              <h3 className="text-lg font-semibold text-gray-900 mb-4">{t('About.interests')}</h3>
-              <p className="text-gray-700">{t('About.interestsText')}</p>
-            </div>
-          </div>
-        </div>
-      </section>
     </div>
   );
 }

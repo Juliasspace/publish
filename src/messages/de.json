@@ -9,9 +9,9 @@
   },
   "Hero": {
     "titlePrefix": "Hallo, ich bin",
-    "subtitle": "Kreative Designerin und Entwicklerin mit Leidenschaft für",
-    "subtitleCont": "innovative Lösungen und schöne Designs.",
-    "body": "Ich helfe Unternehmen und Einzelpersonen dabei, ihre Visionen in die digitale Welt zu übertragen. Von Webdesign über Branding bis hin zu Social Media Content – gemeinsam schaffen wir etwas Besonderes.",
+    "subtitle": "Wirtschaftspsychologie-Studentin mit großer Leidenschaft für Human Resources und Coaching.",
+    "subtitleCont": "",
+    "body": "",
     "cta": "Folge meiner Reise"
   },
   "AboutTeaser": {
@@ -26,8 +26,8 @@
     "cta": "Mehr erfahren"
   },
   "CTA": {
-    "title": "Lass uns kreativ zusammenarbeiten",
-    "body": "Hast du ein Projekt im Kopf? Ich helfe dir dabei, deine Vision in die Realität umzusetzen. Gemeinsam schaffen wir etwas Besonderes.",
+    "title": "Interesse an einer Zusammenarbeit?",
+    "body": "Ich freue mich auf deine Nachricht.",
     "button": "Kontakt aufnehmen",
     "meta": "Kostenloses Beratungsgespräch • Schnelle Antwort • Professionelle Umsetzung"
   },
@@ -71,18 +71,18 @@
     "journey": [
       {
         "year": "08/2025 – heute",
-        "title": "Junior HR Consultant (Werkstudentin), DEKRA Arbeit GmbH, Bremen",
+        "title": "Junior HR Consultant\nDEKRA Arbeit GmbH",
         "desc": "Einführung eines neuen Recruiting-Systems, inklusive Prozessoptimierung und Schulung der Kollegen • Effiziente Gestaltung von Stellenanzeigen und Reichweitenoptimierung • Aktives Bewerbermanagement und Kommunikation mit Bewerbern",
         "images": [
-          "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?auto=format&fit=crop&w=800&q=80"
+          "/images/DEKRA HQ.jpeg"
         ]
       },
       {
         "year": "09/2023 – heute",
         "title": "M.Sc. Wirtschaftspsychologie, Universität Bremen",
-        "desc": "Erwarteter Abschluss: 03/2026 (aktueller Notenschnitt: 1,18) • EASC‑Zertifizierung als Coach (in Arbeit) • Auslandssemester in Italien (03/2025 – 08/2025)",
+        "desc": "Erwarteter Abschluss: 03/2026 (aktueller Notenschnitt: 1,18) • EASC‑Zertifizierung als Coach (in Arbeit)",
         "images": [
-          "https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=800&q=80"
+          "/images/Uni Bremen.jpeg"
         ]
       },
       {
@@ -90,16 +90,15 @@
         "title": "Erasmus-Programm, Freie Universität Bozen, Italien",
         "desc": "Schwerpunkt: Business und Innovation Management",
         "images": [
-          "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=800&q=80"
+          "/images/Bozen .jpeg"
         ]
       },
       {
         "year": "03/2022 – 03/2025",
-        "title": "Junior HR Consultant (Werkstudentin), DEKRA Arbeit GmbH, Bremen",
+        "title": "Junior HR Consultant\nDEKRA Arbeit GmbH",
         "desc": "Betreuung von 150 Werkstudierenden bei Mercedes‑Benz • Ansprechpartnerin für Kunden • Steuerung vielfältiger Projekte (DHL, IKEA, DEKRA Automobile) • Recruiting, Verträge, Disposition, Onboarding, Kündigungen, Ersatzbesetzungen",
         "images": [
-          "https://images.unsplash.com/photo-1497215728101-856f4ea42174?auto=format&fit=crop&w=500&q=80",
-          "https://images.unsplash.com/photo-1517048676732-d65bc937f952?auto=format&fit=crop&w=500&q=80"
+          "/images/DEKRA Sign Logo.jpeg"
         ]
       },
       {
@@ -107,7 +106,7 @@
         "title": "B.A. Betriebswirtschaft, Hochschule Bremen",
         "desc": "Abschlussnote: 1,5 • Schwerpunkte: Personalwesen und Controlling",
         "images": [
-          "https://images.unsplash.com/photo-1506784983877-45594efa4cbe?auto=format&fit=crop&w=800&q=80"
+          "/images/HS Bremen.jpeg"
         ]
       },
       {
@@ -115,35 +114,41 @@
         "title": "HR‑Praktikantin, DEKRA Arbeit GmbH, Bremen",
         "desc": "Unterstützung in HR‑Projekten • Begleitung von Studierendenprojekten für Mercedes • Administrative Aufgaben",
         "images": [
-          "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=800&q=80"
+          "/images/DEKRA LOGO.png"
         ]
       },
       {
         "year": "01/2020 – 09/2021",
         "title": "Produktionsmitarbeiterin (Mercedes‑Benz), DEKRA Arbeit GmbH, Bremen",
         "desc": "Tätigkeit in Lackierung und Produktion",
-        "images": []
-      },
-      {
-        "year": "2019",
-        "title": "Abitur Oberschule Ronzelenstraße",
-        "desc": "",
         "images": [
-          "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?auto=format&fit=crop&w=800&q=80"
+          "/images/MB MA.webp"
         ]
       }
     ],
     "downloadCV": "Lebenslauf herunterladen"
   },
   "Contact": {
-    "heroTitle": "Lass uns sprechen",
+    "heroTitle": "WORK WITH ME.",
+    "subTitle": "Human Resources, Coaching, Personalentwicklung, Recruiting, Wirtschaftspsychologie.",
+    "contactText": "Verwende das Kontaktformular oder schreibe mir gern direkt eine Mail an",
+    "form": {
+      "name": "Name",
+      "firstName": "Vorname",
+      "lastName": "Nachname",
+      "email": "Email",
+      "subject": "Betreff",
+      "message": "Nachricht",
+      "required": "(erforderlich)",
+      "submit": "SENDEN"
+    },
     "heroBody": "Hast du ein Projekt im Kopf? Ich helfe dir dabei, deine Vision in die Realität umzusetzen. Kontaktiere mich für ein kostenloses Beratungsgespräch.",
     "info": {
       "email": "E-Mail",
       "phone": "Telefon",
       "address": "Adresse",
       "hours": "Arbeitszeiten",
-      "addressValue": "Bremen",
+      "addressValue": "Bremen und Hamburg",
       "hoursValue": "Nach Vereinbarung"
     },
     "formTitle": "Schreib mir eine Nachricht",
@@ -191,7 +196,7 @@
       "benefit3": "Selbstvertrauen stärken"
     },
     "service3": {
-      "title": "Wirtschaftspsychologie",
+      "title": "Organisationsentwicklung",
       "description": "Wende psychologische Prinzipien auf Geschäftsherausforderungen an",
       "benefit1": "Teamdynamik und Kommunikation",
       "benefit2": "Change Management Unterstützung",

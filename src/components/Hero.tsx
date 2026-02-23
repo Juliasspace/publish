@@ -4,13 +4,14 @@ import { motion } from 'framer-motion';
 import Image from 'next/image';
 import { ArrowRight } from 'lucide-react';
 import { BlueButton } from '@/components/ui/BlueButton';
+import { Typewriter } from '@/components/ui/typewriter';
 import { useI18n } from '@/lib/i18n';
 
 export default function Hero() {
   const { t } = useI18n();
   return (
     <section className="section bg-background">
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
         {/* Content */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -19,20 +20,27 @@ export default function Hero() {
           className="space-y-8"
         >
           <div className="space-y-4">
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-semibold text-gray-900 leading-tight">
+            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-serif font-medium text-[#123458] leading-tight uppercase tracking-tight">
               {t('Hero.titlePrefix')}{' '}
-              <span className="text-accent">Julia</span>
+              <Typewriter
+                words={["Julia", "a Business Psychologist", "an HR Consultant", "a Coach"]}
+                speed={100}
+                delayBetweenWords={2000}
+                className="text-accent"
+              />
             </h1>
             <p className="text-xl text-gray-600 leading-relaxed">
-              {t('Hero.subtitle')} 
+              {t('Hero.subtitle')}
               {t('Hero.subtitleCont')}
             </p>
           </div>
 
           <div className="space-y-6">
-            <p className="text-lg text-gray-700 leading-relaxed">
-              {t('Hero.body')}
-            </p>
+            {t('Hero.body') && (
+              <p className="text-lg text-gray-700 leading-relaxed">
+                {t('Hero.body')}
+              </p>
+            )}
 
             <BlueButton href="/about">
               <span>{t('Hero.cta')}</span>
@@ -46,7 +54,7 @@ export default function Hero() {
           initial={{ opacity: 0, scale: 0.9 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.6, delay: 0.2 }}
-          className="relative"
+          className="relative lg:pl-24"
         >
           <div className="relative w-full h-96 lg:h-[500px] rounded-2xl overflow-hidden shadow-2xl">
             <Image
@@ -60,7 +68,7 @@ export default function Hero() {
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent" />
           </div>
-          
+
           {/* Floating elements */}
           <div className="absolute -top-4 -right-4 w-24 h-24 bg-accent/20 rounded-full blur-xl" />
           <div className="absolute -bottom-4 -left-4 w-32 h-32 bg-accent/10 rounded-full blur-2xl" />

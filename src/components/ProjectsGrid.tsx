@@ -70,7 +70,7 @@ export default function ProjectsGrid() {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
-          className="text-3xl sm:text-4xl font-semibold text-gray-900 mb-4"
+          className="text-3xl sm:text-4xl font-serif font-medium text-[#123458] mb-4"
         >
           {t('Cards.projectsTitle')}
         </motion.h2>

@@ -53,6 +53,9 @@ export const metadata: Metadata = {
   verification: {
     google: 'your-google-verification-code',
   },
+  icons: {
+    icon: '/images/header_logo_nobg.png',
+  },
 };
 
 export default function RootLayout({

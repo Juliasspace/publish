@@ -9,9 +9,9 @@
   },
   "Hero": {
     "titlePrefix": "Hi, I'm",
-    "subtitle": "Creative designer and developer passionate about",
-    "subtitleCont": "innovative solutions and beautiful design.",
-    "body": "I help companies and individuals bring their vision to the digital world. From web design and branding to social media content — together we create something special.",
+    "subtitle": "Business Psychology Student with a strong passion for Human Resources and Coaching.",
+    "subtitleCont": "",
+    "body": "",
     "cta": "Follow my journey"
   },
   "AboutTeaser": {
@@ -26,8 +26,8 @@
     "cta": "Learn more"
   },
   "CTA": {
-    "title": "Let's create together",
-    "body": "Got a project in mind? I help turn your vision into reality. Together, we will create something special.",
+    "title": "Interested in working together?",
+    "body": "I look forward to your message.",
     "button": "Get in touch",
     "meta": "Free consultation • Quick response • Professional delivery"
   },
@@ -70,18 +70,18 @@
     "journey": [
       {
         "year": "08/2025 – present",
-        "title": "Junior HR Consultant (Working Student), DEKRA Arbeit GmbH, Bremen",
+        "title": "Junior HR Consultant\nDEKRA Arbeit GmbH",
         "desc": "Implementation of a new recruiting system, including process optimization and training for colleagues • Efficient design of job advertisements and reach optimization • Active applicant management and communication with applicants",
         "images": [
-          "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?auto=format&fit=crop&w=800&q=80"
+          "/images/DEKRA HQ.jpeg"
         ]
       },
       {
         "year": "09/2023 – present",
         "title": "M.Sc. Business Psychology, University of Bremen",
-        "desc": "Expected graduation: 03/2026 (current GPA: 1.18) • EASC certification as coach (in progress) • Semester abroad in Italy (03/2025 – 08/2025)",
+        "desc": "Expected graduation: 03/2026 (current GPA: 1.18) • EASC certification as coach (in progress)",
         "images": [
-          "https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=800&q=80"
+          "/images/Uni Bremen.jpeg"
         ]
       },
       {
@@ -89,16 +89,15 @@
         "title": "Erasmus Program, University of Bozen-Bolzano, Italy",
         "desc": "Focus: Business and Innovation Management",
         "images": [
-          "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=800&q=80"
+          "/images/Bozen .jpeg"
         ]
       },
       {
         "year": "03/2022 – 03/2025",
-        "title": "Junior HR Consultant (Working Student), DEKRA Arbeit GmbH, Bremen",
+        "title": "Junior HR Consultant\nDEKRA Arbeit GmbH",
         "desc": "Managed 150 working students at Mercedes‑Benz • Client liaison • Coordinated diverse projects (DHL, IKEA, DEKRA Automobile) • Recruiting, contracts, dispatching, onboarding, terminations, replacements",
         "images": [
-          "https://images.unsplash.com/photo-1497215728101-856f4ea42174?auto=format&fit=crop&w=500&q=80",
-          "https://images.unsplash.com/photo-1517048676732-d65bc937f952?auto=format&fit=crop&w=500&q=80"
+          "/images/DEKRA Sign Logo.jpeg"
         ]
       },
       {
@@ -106,7 +105,7 @@
         "title": "B.A. Business Administration, Hochschule Bremen",
         "desc": "Final grade: 1.5 • Focus: Human Resources and Controlling",
         "images": [
-          "https://images.unsplash.com/photo-1506784983877-45594efa4cbe?auto=format&fit=crop&w=800&q=80"
+          "/images/HS Bremen.jpeg"
         ]
       },
       {
@@ -114,35 +113,41 @@
         "title": "HR Intern, DEKRA Arbeit GmbH, Bremen",
         "desc": "Supported HR projects • Assisted student projects for Mercedes • Administrative tasks",
         "images": [
-          "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=800&q=80"
+          "/images/DEKRA LOGO.png"
         ]
       },
       {
         "year": "01/2020 – 09/2021",
         "title": "Production worker (Mercedes‑Benz), DEKRA Arbeit GmbH, Bremen",
         "desc": "Work in painting and production",
-        "images": []
-      },
-      {
-        "year": "2019",
-        "title": "Abitur Oberschule Ronzelenstraße",
-        "desc": "",
         "images": [
-          "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?auto=format&fit=crop&w=800&q=80"
+          "/images/MB MA.webp"
         ]
       }
     ],
     "downloadCV": "Download CV"
   },
   "Contact": {
-    "heroTitle": "Let's talk",
+    "heroTitle": "WORK WITH ME.",
+    "subTitle": "Human Resources, Coaching, Personnel Development, Recruiting, Business Psychology.",
+    "contactText": "Use the contact form or feel free to email me directly at",
+    "form": {
+      "name": "Name",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "email": "Email",
+      "subject": "Subject",
+      "message": "Message",
+      "required": "(required)",
+      "submit": "SUBMIT"
+    },
     "heroBody": "Got a project in mind? I help bring your vision to life. Contact me for a free consultation.",
     "info": {
       "email": "Email",
       "phone": "Phone",
       "address": "Address",
       "hours": "Working hours",
-      "addressValue": "Bremen",
+      "addressValue": "Bremen and Hamburg",
       "hoursValue": "By appointment"
     },
     "formTitle": "Send me a message",
@@ -176,21 +181,21 @@
     "servicesTitle": "Coaching Services",
     "servicesSubtitle": "Tailored coaching solutions to help you grow personally and professionally",
     "service1": {
-      "title": "Career Coaching",
+      "title": "Career\nCoaching",
       "description": "Navigate your career path with confidence and clarity",
       "benefit1": "Career goal setting and planning",
       "benefit2": "Interview preparation and skills",
       "benefit3": "Leadership development"
     },
     "service2": {
-      "title": "Personal Development",
+      "title": "Personal\nDevelopment",
       "description": "Build self-awareness and develop key life skills",
       "benefit1": "Goal setting and achievement",
       "benefit2": "Time management strategies",
       "benefit3": "Confidence building"
     },
     "service3": {
-      "title": "Business Psychology",
+      "title": "Organizational\nDevelopment",
       "description": "Apply psychological principles to business challenges",
       "benefit1": "Team dynamics and communication",
       "benefit2": "Change management support",

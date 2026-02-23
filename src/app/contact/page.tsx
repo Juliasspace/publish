@@ -2,150 +2,59 @@
 
 import { motion } from 'framer-motion';
 import FormContact from '@/components/FormContact';
-import { Mail, Phone, MapPin, Clock } from 'lucide-react';
 import { useI18n } from '@/lib/i18n';
-
-const mkContactInfo = (t: (k: string) => any) => ([
-  {
-    icon: Mail,
-    title: t('Contact.info.email'),
-    content: 'julia@osterloh.de',
-    href: 'mailto:julia@osterloh.de',
-  },
-  {
-    icon: Phone,
-    title: t('Contact.info.phone'),
-    content: '+49 421 123456',
-    href: 'tel:+49421123456',
-  },
-  {
-    icon: MapPin,
-    title: t('Contact.info.address'),
-    content: t('Contact.info.addressValue'),
-    href: 'https://maps.google.com/?q=Bremen',
-  },
-  {
-    icon: Clock,
-    title: t('Contact.info.hours'),
-    content: t('Contact.info.hoursValue'),
-    href: '#',
-  },
-]);
 
 export default function ContactPage() {
   const { t } = useI18n();
-  const contactInfo = mkContactInfo(t as unknown as (k: string) => any);
-  
+
   return (
-    <div className="min-h-screen">
-      {/* Hero Section */}
-      <section className="section bg-background">
-        <div className="max-w-4xl mx-auto text-center">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6 }}
-            className="space-y-6"
-          >
-            <h1 className="text-4xl sm:text-5xl font-semibold text-gray-900">
-              {t('Contact.heroTitle')}
-            </h1>
-            <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-              {t('Contact.heroBody')}
-            </p>
-          </motion.div>
-        </div>
-      </section>
+    <div className="min-h-screen bg-background pt-24 pb-24">
+      <div className="max-w-[1400px] mx-auto px-6 lg:px-12">
 
-      {/* Contact Info */}
-      <section className="section bg-background">
-        <div className="max-w-6xl mx-auto">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-            {contactInfo.map((info, index) => {
-              const IconComponent = info.icon;
-              return (
-                <motion.div
-                  key={index}
-                  initial={{ opacity: 0, y: 20 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 0.6, delay: index * 0.1 }}
-                  viewport={{ once: true }}
-                  className="card p-6 text-center group hover:shadow-lg transition-shadow"
-                >
-                  <div className="w-12 h-12 bg-accent/10 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-accent/20 transition-colors">
-                    <IconComponent className="h-6 w-6 text-accent" />
-                  </div>
-                  <h3 className="text-lg font-semibold text-gray-900 mb-2">{info.title}</h3>
-                  <a
-                    href={info.href}
-                    className="text-gray-600 hover:text-accent transition-colors"
-                  >
-                    {info.content}
+        {/* Header */}
+        <motion.div
+          initial={{ opacity: 0, y: 30 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, ease: "easeOut" }}
+          className="mb-12"
+        >
+          <h1 className="text-[10vw] leading-none font-serif text-[#123458] text-center tracking-tight whitespace-nowrap">
+            {t('Contact.heroTitle')}
+          </h1>
+        </motion.div>
+
+
+
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-24">
+
+          {/* Left Column: Info */}
+          <div className="lg:col-span-5 space-y-12">
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6, delay: 0.2 }}
+            >
+              <h2 className="text-2xl md:text-3xl font-medium text-[#123458] leading-tight mb-8">
+                {t('Contact.subTitle')}
+              </h2>
+              <div className="space-y-4 text-lg text-gray-700">
+                <p>
+                  {t('Contact.contactText')}{' '}
+                  <a href="mailto:juliaosterloh@gmx.de" className="font-semibold text-[#123458] hover:opacity-70 transition-opacity">
+                    juliaosterloh@gmx.de
                   </a>
-                </motion.div>
-              );
-            })}
+                </p>
+              </div>
+            </motion.div>
           </div>
-        </div>
-      </section>
 
-      {/* Contact Form */}
-      <section className="section bg-background">
-        <div className="max-w-4xl mx-auto">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6 }}
-            viewport={{ once: true }}
-            className="text-center mb-12"
-          >
-            <h2 className="text-3xl font-semibold text-gray-900 mb-4">
-              {t('Contact.formTitle')}
-            </h2>
-            <p className="text-lg text-gray-600">
-              {t('Contact.formSubtitle')}
-            </p>
-          </motion.div>
-
-          <FormContact />
-        </div>
-      </section>
-
-      {/* FAQ Section */}
-      <section className="section bg-background">
-        <div className="max-w-4xl mx-auto">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6 }}
-            viewport={{ once: true }}
-            className="text-center mb-12"
-          >
-            <h2 className="text-3xl font-semibold text-gray-900 mb-4">
-              {t('Contact.faqTitle')}
-            </h2>
-            <p className="text-lg text-gray-600">
-              {t('Contact.faqSubtitle')}
-            </p>
-          </motion.div>
-
-          <div className="space-y-6">
-            {(t('Contact.faqs') as { q: string; a: string }[] || []).map((faq, index) => (
-              <motion.div
-                key={index}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.6, delay: index * 0.1 }}
-                viewport={{ once: true }}
-                className="card p-6"
-              >
-                <h3 className="text-lg font-semibold text-gray-900 mb-3">{faq.q}</h3>
-                <p className="text-gray-700 leading-relaxed">{faq.a}</p>
-              </motion.div>
-            ))}
+          {/* Right Column: Form */}
+          <div className="lg:col-span-7">
+            <FormContact />
           </div>
+
         </div>
-      </section>
+      </div>
     </div>
   );
 }

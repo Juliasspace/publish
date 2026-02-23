@@ -9,23 +9,20 @@ export default function CoachingPage() {
   return (
     <div className="min-h-screen bg-background">
       {/* Hero Section */}
-      <section className="relative py-20 px-4 sm:px-6 lg:px-8">
+      <section className="relative min-h-[90vh] flex flex-col justify-center items-center px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto text-center">
           <div className="inline-flex items-center justify-center w-16 h-16 bg-[#D4C9BE] rounded-full mb-6">
             <Users className="w-8 h-8 text-[#123458]" />
           </div>
-          <h1 className="text-4xl md:text-5xl font-bold text-[#123458] mb-6">
+          <h1 className="text-5xl md:text-7xl font-serif font-medium text-[#123458] mb-8 uppercase tracking-tight">
             {t('Coaching.heroTitle')}
           </h1>
-          <p className="text-xl text-[#123458]/80 mb-8 max-w-2xl mx-auto">
+          <p className="text-xl md:text-2xl text-[#123458]/80 mb-10 max-w-3xl mx-auto">
             {t('Coaching.heroSubtitle')}
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <div className="flex justify-center">
             <button className="bg-[#123458] text-white px-8 py-3 rounded-full font-semibold hover:bg-[#123458]/90 transition-colors">
               {t('Coaching.ctaButton')}
-            </button>
-            <button className="border-2 border-[#123458] text-[#123458] px-8 py-3 rounded-full font-semibold hover:bg-[#123458] hover:text-white transition-colors">
-              {t('Coaching.secondaryButton')}
             </button>
           </div>
         </div>
@@ -35,7 +32,7 @@ export default function CoachingPage() {
       <section className="py-16 px-4 sm:px-6 lg:px-8 bg-[#F1EFEC]/30">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-[#123458] mb-4">
+            <h2 className="text-3xl md:text-4xl font-serif font-medium text-[#123458] mb-4">
               {t('Coaching.servicesTitle')}
             </h2>
             <p className="text-lg text-[#123458]/80 max-w-2xl mx-auto">
@@ -48,10 +45,10 @@ export default function CoachingPage() {
               <div className="w-12 h-12 bg-[#D4C9BE] rounded-lg flex items-center justify-center mb-6">
                 <Target className="w-6 h-6 text-[#123458]" />
               </div>
-              <h3 className="text-xl font-semibold text-[#123458] mb-4">
+              <h3 className="text-lg font-semibold text-[#123458] mb-4 hyphens-auto whitespace-pre-line">
                 {t('Coaching.service1.title')}
               </h3>
-              <p className="text-[#123458]/80 mb-4">
+              <p className="text-sm text-[#123458]/80 mb-4">
                 {t('Coaching.service1.description')}
               </p>
               <ul className="space-y-2">
@@ -74,10 +71,10 @@ export default function CoachingPage() {
               <div className="w-12 h-12 bg-[#D4C9BE] rounded-lg flex items-center justify-center mb-6">
                 <Lightbulb className="w-6 h-6 text-[#123458]" />
               </div>
-              <h3 className="text-xl font-semibold text-[#123458] mb-4">
+              <h3 className="text-lg font-semibold text-[#123458] mb-4 hyphens-auto whitespace-pre-line">
                 {t('Coaching.service2.title')}
               </h3>
-              <p className="text-[#123458]/80 mb-4">
+              <p className="text-sm text-[#123458]/80 mb-4">
                 {t('Coaching.service2.description')}
               </p>
               <ul className="space-y-2">
@@ -100,10 +97,10 @@ export default function CoachingPage() {
               <div className="w-12 h-12 bg-[#D4C9BE] rounded-lg flex items-center justify-center mb-6">
                 <Users className="w-6 h-6 text-[#123458]" />
               </div>
-              <h3 className="text-xl font-semibold text-[#123458] mb-4">
+              <h3 className="text-lg font-semibold text-[#123458] mb-4 hyphens-auto whitespace-pre-line">
                 {t('Coaching.service3.title')}
               </h3>
-              <p className="text-[#123458]/80 mb-4">
+              <p className="text-sm text-[#123458]/80 mb-4">
                 {t('Coaching.service3.description')}
               </p>
               <ul className="space-y-2">
@@ -129,7 +126,7 @@ export default function CoachingPage() {
       <section className="py-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-[#123458] mb-4">
+            <h2 className="text-3xl md:text-4xl font-serif font-medium text-[#123458] mb-4">
               {t('Coaching.processTitle')}
             </h2>
             <p className="text-lg text-[#123458]/80">
@@ -160,18 +157,15 @@ export default function CoachingPage() {
       {/* CTA Section */}
       <section className="py-16 px-4 sm:px-6 lg:px-8 bg-[#F1EFEC]/30">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-3xl md:text-4xl font-bold text-[#123458] mb-6">
+          <h2 className="text-3xl md:text-4xl font-serif font-medium text-[#123458] mb-6">
             {t('Coaching.ctaTitle')}
           </h2>
           <p className="text-lg text-[#123458]/80 mb-8 max-w-2xl mx-auto">
             {t('Coaching.ctaDescription')}
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <div className="flex justify-center">
             <button className="bg-[#123458] text-white px-8 py-3 rounded-full font-semibold hover:bg-[#123458]/90 transition-colors">
               {t('Coaching.ctaButton')}
-            </button>
-            <button className="border-2 border-[#123458] text-[#123458] px-8 py-3 rounded-full font-semibold hover:bg-[#123458] hover:text-white transition-colors">
-              {t('Coaching.secondaryButton')}
             </button>
           </div>
         </div>
